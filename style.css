@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header, footer, .hero {
+    background-color: #1F2937;
+}
+
+header, .hero{
+    padding: 20px 160px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero{
+    align-items: center;
+    padding: 110px 160px;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+
+.hero button {
+    color: white;
+    border-radius: 6px;
+    background-color: #3882F6;
+    border: none;
+    padding: 8px 30px;
+    margin: 8px 0;
+}
+
+.placeholder {
+    margin: 20px;
+    background-color: rgb(106, 106, 106);
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    gap: 14px;
+}
+
+header .logo{
+    font-weight: bold;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20px;
+}
+
+.review {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    color: #1F2937;
+}
+
+.author {
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: right;
+    width: 100%;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.calltoaction {
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calltoaction .container {
+    background-color: #3882F6;
+    color: white;
+    padding: 45px 120px;
+
+    border-radius: 8px;
+    width: 70%;
+}
+
+.call{
+    display: flex;
+    justify-content: space-between
+}
+
+.call button {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-weight: 500;
+    font-size: 15px;
+    height: fit-content;
+    padding: 3px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.items {
+    display: flex;
+    gap: 30px;
+    margin: 50px;
+}
+
+.box {
+    min-width: 200px;
+    max-width: 300px;
+    min-height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    min-width: 200px;
+    max-width: 200px;
+    color: rgb(53, 50, 50);
+}
